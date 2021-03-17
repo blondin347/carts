@@ -84,7 +84,6 @@ pipeline {
              customProperties : [
                    [key: 'Jenkins Build Number', value: "${env.BUILD_ID}"],
                    [key: 'Git commit', value: "${env.GIT_COMMIT}"],
-                   [key: 'Pipeline tool', value: "Jenkins"]
                ]
             )
           }
